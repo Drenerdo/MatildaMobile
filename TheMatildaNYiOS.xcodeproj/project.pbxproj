@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0423188A1C51F5070017181B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042318891C51F5070017181B /* main.m */; };
+		0423188D1C51F5070017181B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423188C1C51F5070017181B /* AppDelegate.m */; };
+		042318901C51F5070017181B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423188F1C51F5070017181B /* ViewController.m */; };
+		042318931C51F5070017181B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042318911C51F5070017181B /* Main.storyboard */; };
+		042318951C51F5080017181B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042318941C51F5080017181B /* Assets.xcassets */; };
+		042318981C51F5080017181B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042318961C51F5080017181B /* LaunchScreen.storyboard */; };
+		042318A31C51F5080017181B /* TheMatildaNYiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042318A21C51F5080017181B /* TheMatildaNYiOSTests.m */; };
+		042318BA1C51FC940017181B /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 042318B01C51FC940017181B /* AbstractActionSheetPicker.m */; };
+		042318BB1C51FC940017181B /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 042318B21C51FC940017181B /* ActionSheetCustomPicker.m */; };
+		042318BC1C51FC940017181B /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 042318B51C51FC940017181B /* ActionSheetDatePicker.m */; };
+		042318BD1C51FC940017181B /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 042318B71C51FC940017181B /* ActionSheetStringPicker.m */; };
+		042318BE1C51FC940017181B /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 042318B91C51FC940017181B /* SWActionSheet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0423189F1C51F5080017181B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0423187D1C51F5070017181B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042318841C51F5070017181B;
+			remoteInfo = TheMatildaNYiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042318851C51F5070017181B /* TheMatildaNYiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMatildaNYiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042318891C51F5070017181B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0423188B1C51F5070017181B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0423188C1C51F5070017181B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0423188E1C51F5070017181B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0423188F1C51F5070017181B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042318921C51F5070017181B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042318941C51F5080017181B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042318971C51F5080017181B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042318991C51F5080017181B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0423189E1C51F5080017181B /* TheMatildaNYiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMatildaNYiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042318A21C51F5080017181B /* TheMatildaNYiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheMatildaNYiOSTests.m; sourceTree = "<group>"; };
+		042318A41C51F5080017181B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042318AF1C51FC940017181B /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		042318B01C51FC940017181B /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		042318B11C51FC940017181B /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		042318B21C51FC940017181B /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		042318B31C51FC940017181B /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		042318B41C51FC940017181B /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		042318B51C51FC940017181B /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		042318B61C51FC940017181B /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		042318B71C51FC940017181B /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		042318B81C51FC940017181B /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		042318B91C51FC940017181B /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042318821C51F5070017181B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0423189B1C51F5080017181B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0423187C1C51F5070017181B = {
+			isa = PBXGroup;
+			children = (
+				042318871C51F5070017181B /* TheMatildaNYiOS */,
+				042318A11C51F5080017181B /* TheMatildaNYiOSTests */,
+				042318861C51F5070017181B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042318861C51F5070017181B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042318851C51F5070017181B /* TheMatildaNYiOS.app */,
+				0423189E1C51F5080017181B /* TheMatildaNYiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042318871C51F5070017181B /* TheMatildaNYiOS */ = {
+			isa = PBXGroup;
+			children = (
+				0423188B1C51F5070017181B /* AppDelegate.h */,
+				0423188C1C51F5070017181B /* AppDelegate.m */,
+				0423188E1C51F5070017181B /* ViewController.h */,
+				0423188F1C51F5070017181B /* ViewController.m */,
+				042318911C51F5070017181B /* Main.storyboard */,
+				042318941C51F5080017181B /* Assets.xcassets */,
+				042318961C51F5080017181B /* LaunchScreen.storyboard */,
+				042318991C51F5080017181B /* Info.plist */,
+				042318AD1C51FC890017181B /* Other Resources */,
+				042318881C51F5070017181B /* Supporting Files */,
+			);
+			path = TheMatildaNYiOS;
+			sourceTree = "<group>";
+		};
+		042318881C51F5070017181B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042318891C51F5070017181B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042318A11C51F5080017181B /* TheMatildaNYiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				042318A21C51F5080017181B /* TheMatildaNYiOSTests.m */,
+				042318A41C51F5080017181B /* Info.plist */,
+			);
+			path = TheMatildaNYiOSTests;
+			sourceTree = "<group>";
+		};
+		042318AD1C51FC890017181B /* Other Resources */ = {
+			isa = PBXGroup;
+			children = (
+				042318AE1C51FC940017181B /* Pickers */,
+			);
+			path = "Other Resources";
+			sourceTree = "<group>";
+		};
+		042318AE1C51FC940017181B /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				042318AF1C51FC940017181B /* AbstractActionSheetPicker.h */,
+				042318B01C51FC940017181B /* AbstractActionSheetPicker.m */,
+				042318B11C51FC940017181B /* ActionSheetCustomPicker.h */,
+				042318B21C51FC940017181B /* ActionSheetCustomPicker.m */,
+				042318B31C51FC940017181B /* ActionSheetCustomPickerDelegate.h */,
+				042318B41C51FC940017181B /* ActionSheetDatePicker.h */,
+				042318B51C51FC940017181B /* ActionSheetDatePicker.m */,
+				042318B61C51FC940017181B /* ActionSheetStringPicker.h */,
+				042318B71C51FC940017181B /* ActionSheetStringPicker.m */,
+				042318B81C51FC940017181B /* SWActionSheet.h */,
+				042318B91C51FC940017181B /* SWActionSheet.m */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042318841C51F5070017181B /* TheMatildaNYiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042318A71C51F5080017181B /* Build configuration list for PBXNativeTarget "TheMatildaNYiOS" */;
+			buildPhases = (
+				042318811C51F5070017181B /* Sources */,
+				042318821C51F5070017181B /* Frameworks */,
+				042318831C51F5070017181B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheMatildaNYiOS;
+			productName = TheMatildaNYiOS;
+			productReference = 042318851C51F5070017181B /* TheMatildaNYiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0423189D1C51F5080017181B /* TheMatildaNYiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042318AA1C51F5080017181B /* Build configuration list for PBXNativeTarget "TheMatildaNYiOSTests" */;
+			buildPhases = (
+				0423189A1C51F5080017181B /* Sources */,
+				0423189B1C51F5080017181B /* Frameworks */,
+				0423189C1C51F5080017181B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042318A01C51F5080017181B /* PBXTargetDependency */,
+			);
+			name = TheMatildaNYiOSTests;
+			productName = TheMatildaNYiOSTests;
+			productReference = 0423189E1C51F5080017181B /* TheMatildaNYiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0423187D1C51F5070017181B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Swordfish;
+				TargetAttributes = {
+					042318841C51F5070017181B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0423189D1C51F5080017181B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 042318841C51F5070017181B;
+					};
+				};
+			};
+			buildConfigurationList = 042318801C51F5070017181B /* Build configuration list for PBXProject "TheMatildaNYiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0423187C1C51F5070017181B;
+			productRefGroup = 042318861C51F5070017181B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042318841C51F5070017181B /* TheMatildaNYiOS */,
+				0423189D1C51F5080017181B /* TheMatildaNYiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042318831C51F5070017181B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042318981C51F5080017181B /* LaunchScreen.storyboard in Resources */,
+				042318951C51F5080017181B /* Assets.xcassets in Resources */,
+				042318931C51F5070017181B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0423189C1C51F5080017181B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042318811C51F5070017181B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042318901C51F5070017181B /* ViewController.m in Sources */,
+				042318BB1C51FC940017181B /* ActionSheetCustomPicker.m in Sources */,
+				0423188D1C51F5070017181B /* AppDelegate.m in Sources */,
+				042318BE1C51FC940017181B /* SWActionSheet.m in Sources */,
+				042318BC1C51FC940017181B /* ActionSheetDatePicker.m in Sources */,
+				042318BD1C51FC940017181B /* ActionSheetStringPicker.m in Sources */,
+				0423188A1C51F5070017181B /* main.m in Sources */,
+				042318BA1C51FC940017181B /* AbstractActionSheetPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0423189A1C51F5080017181B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042318A31C51F5080017181B /* TheMatildaNYiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042318A01C51F5080017181B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042318841C51F5070017181B /* TheMatildaNYiOS */;
+			targetProxy = 0423189F1C51F5080017181B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042318911C51F5070017181B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042318921C51F5070017181B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042318961C51F5080017181B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042318971C51F5080017181B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042318A51C51F5080017181B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042318A61C51F5080017181B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042318A81C51F5080017181B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheMatildaNYiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swordfish.TheMatildaNYiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		042318A91C51F5080017181B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheMatildaNYiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swordfish.TheMatildaNYiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		042318AB1C51F5080017181B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheMatildaNYiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swordfish.TheMatildaNYiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheMatildaNYiOS.app/TheMatildaNYiOS";
+			};
+			name = Debug;
+		};
+		042318AC1C51F5080017181B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheMatildaNYiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swordfish.TheMatildaNYiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheMatildaNYiOS.app/TheMatildaNYiOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042318801C51F5070017181B /* Build configuration list for PBXProject "TheMatildaNYiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042318A51C51F5080017181B /* Debug */,
+				042318A61C51F5080017181B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042318A71C51F5080017181B /* Build configuration list for PBXNativeTarget "TheMatildaNYiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042318A81C51F5080017181B /* Debug */,
+				042318A91C51F5080017181B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042318AA1C51F5080017181B /* Build configuration list for PBXNativeTarget "TheMatildaNYiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042318AB1C51F5080017181B /* Debug */,
+				042318AC1C51F5080017181B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0423187D1C51F5070017181B /* Project object */;
+}
